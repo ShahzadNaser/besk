@@ -127,3 +127,22 @@ app_license = "MIT"
 # 	"Task": "besk.task.get_dashboard_data"
 # }
 
+doctypes_list = ["Salary Slip Loan"]
+
+fixtures = [
+    {"doctype": "Custom Script", "filters": [
+        [
+            "dt", "in", doctypes_list
+        ]
+    ]},
+    {"doctype": "Property Setter", "filters": [
+        [
+            "doc_type", "in", doctypes_list
+        ]
+    ]},
+    {"doctype": "Custom Field", "filters": [
+        [
+            "dt", "in", doctypes_list
+        ]
+    ]}
+]
