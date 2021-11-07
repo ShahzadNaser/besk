@@ -1,0 +1,18 @@
+[
+ {
+  "default_value": null,
+  "doc_type": "Salary Slip Loan",
+  "docstatus": 0,
+  "doctype": "Property Setter",
+  "doctype_or_field": "DocField",
+  "field_name": "interest_income_account",
+  "modified": "2021-11-06 21:35:06.488705",
+  "name": "Salary Slip Loan-interest_income_account-in_list_view",
+  "parent": null,
+  "parentfield": null,
+  "parenttype": null,
+  "property": "in_list_view",
+  "property_type": "Check",
+  "value": "0"
+ }
+]
